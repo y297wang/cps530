@@ -1,0 +1,64 @@
+body {
+  background-color: #FAE3D9;
+  padding: 2px;
+  font-size: 14px;
+  font-family: Tahoma, Verdana;
+  text-align: center;
+  color: #000000;
+}
+
+a:link, a:visited {
+  color: #61C0BF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #BBDED6;
+  text-decoration: none;
+}
+
+header {
+  font-size: 40px;
+  font-family: 'Times New Roman', Times;
+  line-height: 35px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #000000;
+  border-bottom: 1px dashed #FFB6B9;
+}
+
+nav {
+  font-family: 'Courier New', Courier;
+  font-size: 20px;
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times;
+  font-size: 20px;
+}
+
+img {
+  width: 300px;
+}
+
+hr {
+  border-bottom: 1px dashed #FFB6B9;
+  border-top: 0px;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 508px) {
+  table {
+      width: 90%;
+  }
+}
